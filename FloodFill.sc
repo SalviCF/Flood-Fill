@@ -1,4 +1,4 @@
-def floodFill2(src: String, dest: String,
+def floodFill(src: String, dest: String,
               startX: Int, startY: Int,
               compareColors: (java.awt.Color, java.awt.Color) => Boolean,
               fillColor: java.awt.Color) = {
